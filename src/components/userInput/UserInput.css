@@ -1,0 +1,38 @@
+.UserInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    margin: 30px auto 0px auto;
+    padding: 24px;
+    width: 85%;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(102, 103, 112, 0.37);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  .UserInput h1 {
+    padding-bottom: 12px;
+    color: rgb(24, 17, 17);
+    font-size: 34px;
+    font-weight: 700;
+    text-shadow: 0.5px 1px rgb(83, 80, 80);
+  }
+  
+  .UserInput input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    width: 100%;
+    font-size: 36px;
+    color: rgb(18, 15, 15);
+    font-weight: 200;
+  }
+  
+  .UserInput input:focus {
+    outline: none;
+  }

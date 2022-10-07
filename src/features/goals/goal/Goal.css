@@ -1,0 +1,85 @@
+.Goal {
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 32px;
+    height: 70px;
+    margin: 6px;
+    border: 2px solid rgba(201, 198, 198, 0.6);
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  
+  .ButtonsDisplay {
+    display: none;
+  }
+  
+  .Goal:hover .ButtonsDisplay {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+  }
+  
+  .Remove,
+  .Done,
+  .DoneRedo,
+  .RemoveRedo {
+    border-radius: 20px;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .Remove {
+    background-color: rgba(186, 112, 119, 0.6);
+    border: 1px solid rgb(207, 157, 162);
+  }
+  
+  .Remove:hover {
+    background-color: rgba(201, 107, 116, 0.9);
+    border: 1px solid rgb(224, 203, 205);
+    transition: 0.4s;
+  }
+  
+  .RemoveRedo {
+    background-color: rgba(186, 112, 119, 0.2);
+    border: 1px solid rgb(207, 157, 162, 0.3);
+  }
+  
+  .RemoveRedo:hover {
+    background-color: rgba(186, 112, 119, 0.3);
+    border: 1px solid rgb(207, 157, 162, 0.5);
+  }
+  
+  .Done {
+    background-color: rgba(129, 147, 132, 0.6);
+    border: 1px solid rgb(175, 194, 177);
+    margin-left: 6px;
+  }
+  
+  .DoneRedo {
+    background-color: rgba(129, 147, 132, 0.2);
+    border: 1px solid rgb(175, 194, 177, 0.3);
+    margin-left: 6px;
+  }
+  
+  .DoneRedo:hover {
+    background-color: rgba(129, 147, 132, 0.3);
+    border: 1px solid rgb(175, 194, 177, 0.5);
+    margin-left: 6px;
+  }
+  
+  .Done:hover {
+    background-color: rgba(129, 147, 132, 1);
+    border: 1px solid rgb(211, 228, 212);
+    
+    margin-left: 6px;
+  }
