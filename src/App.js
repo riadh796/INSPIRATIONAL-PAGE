@@ -1,9 +1,8 @@
-//import "./App.css";
-import { Body } from "./components/backgroundControls/Body";
 
-//import { Background } from "./features/background/Background";
-//import { Quote } from "./features/quote/Quote";
-//import { Weather } from "./features/weather/Weather";
+import { Body } from "./components/backgroundControls/Body";
+import { Weather } from "./features/weather/Weather";
+
+
 
 export const App = () => {
   return (
@@ -11,9 +10,9 @@ export const App = () => {
       <div className="Backdrop"></div>
 
       
-
+      <Weather />
       <Body />
-
+      
       
     </div>
   );

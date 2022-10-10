@@ -19,7 +19,7 @@ export const Goals = () => {
     <div className="Goals">
       {confettiTrigger ? (
         <Confetti
-          width={120}
+          width={320}
           height={height}
           recycle={false}
           onConfettiComplete={() => setConfettiTrigger(false)}
