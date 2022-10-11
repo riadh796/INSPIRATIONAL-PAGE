@@ -1,7 +1,7 @@
 
 import { Body } from "./components/backgroundControls/Body";
 import { Weather } from "./features/weather/Weather";
-
+import { Quote } from "./features/quote/Quote";
 
 
 export const App = () => {
@@ -12,7 +12,7 @@ export const App = () => {
       
       <Weather />
       <Body />
-      
+      <Quote/>
       
     </div>
   );

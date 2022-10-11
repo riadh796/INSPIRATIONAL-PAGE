@@ -9,12 +9,7 @@ import {
   selectWeather,
 } from "./WeatherSlice";
 
-export function handleChangelon(event) {
-    return(event.target.value);
-}
-export function handleChangelat(event){
-    return event.target.value;
-}
+
 
 export const Weather = () => {
   const dispatch = useDispatch();
@@ -49,8 +44,7 @@ export const Weather = () => {
       <img src={icon} alt="Shows a weather icon" />
 
       <div>
-      <input name="lat" onChange={handleChangelat} />
-      <input name="lon" onChange={handleChangelon} />
+      
         <h1>{name}</h1>
         <h2>{temperature}</h2>
         <h3>{description}</h3>
