@@ -1,0 +1,25 @@
+.Weather{
+    padding-top: 20px;
+  padding-right: 16px;
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  margin-right: 64px;
+    
+}
+.Weather h1 {
+    font-size: 46px;
+    font-weight: 300;
+    padding-bottom: 6px;
+  }
+.Weather h2 {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 6px;
+  }
+  
+  .Weather h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
